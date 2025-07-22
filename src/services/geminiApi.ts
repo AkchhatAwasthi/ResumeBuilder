@@ -1,4 +1,4 @@
-const GEMINI_API_KEY = 'AIzaSyDOdDds_7LpjvmtPGqcib5hyuoQn4GwH4w';
+const GEMINI_API_KEY = 'Your API Key';
 const GEMINI_API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent';
 
 interface GeminiResponse {
