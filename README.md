@@ -44,44 +44,39 @@ Live Project: **https://airesumebuilder18.netlify.app**
 
 ## 📥 Installation & Setup
 
-### 1. Clone the Repository
 
-```bash
+
+
 git clone https://github.com/your-username/ai-resume-builder.git
 cd ai-resume-builder
 2. Install Dependencies
 Frontend (React)
-bash
-Copy
-Edit
+
+
 cd client
 npm install
 Backend (Node.js)
-bash
-Copy
-Edit
+
+
 cd ../server
 npm install
 3. Add Your API Key
 In the server directory, create a .env file and add:
 
 ini
-Copy
-Edit
+
 GEMINI_API_KEY=your_api_key_here
 Replace your_api_key_here with your actual Google Gemini API key.
 
 🚀 Running the App
 Start the Backend Server
-bash
-Copy
-Edit
+
+
 cd server
 npm run dev
 Start the Frontend (React)
-bash
-Copy
-Edit
+
+
 cd ../client
 npm start
 Visit http://localhost:3000 in your browser to access the app locally.
